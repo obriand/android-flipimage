@@ -1,6 +1,9 @@
 package com.obriand.android_flipimage;
 
 import android.os.Bundle;
+
+// http://code.google.com/p/android-3d-flip-view-transition/
+
 import android.app.Activity;
 import android.view.Menu;
 
