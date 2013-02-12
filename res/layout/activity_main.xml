@@ -4,11 +4,22 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity" >
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+    <ViewFlipper
         android:layout_centerHorizontal="true"
         android:layout_centerVertical="true"
-        android:text="@string/hello_world" />
+        android:id="@+id/imageflipper"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <ImageView
+            android:layout_width="200dip"
+            android:layout_height="200dip"
+            android:src="@drawable/android1" />
+
+        <ImageView
+            android:layout_width="200dip"
+            android:layout_height="200dip"
+            android:src="@drawable/android2" />
+    </ViewFlipper>
 
 </RelativeLayout>
